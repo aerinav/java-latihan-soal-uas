@@ -86,7 +86,7 @@ public class FoodOrder {
         String type;
         while (true) {
             System.out.print("Input food's type [Appetizer | Main Course | Dessert]: ");
-            type = scanner.nextLine().trim().toLowerCase();
+            type = scanner.nextLine().trim().toLowerCase(); 
 
             if (type.equals("appetizer") || type.equals("main course") || type.equals("dessert")) break;
   
